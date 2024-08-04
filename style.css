@@ -1,0 +1,80 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+
+
+.left-block,.right-block{
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    width: 10vw;
+    height: 115vh;
+    background-color: rgb(71, 71, 46);
+}
+
+.left-block{
+    left: 0;
+}
+
+.right-block{
+    right: 0;
+}
+
+
+.title{
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 5rem;
+    color: rgb(71, 71, 46);
+}
+
+hr{
+    color: black;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+ul{
+    margin-top: 25vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+
+}
+
+li{
+    /* width: 50vw; */
+    font-size: 3rem;
+}
+
+button{
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    width: 20vw;
+    height: 20vh;
+    background-color: hsl(60, 50%, 91%);
+    font-size: 1.5rem;
+    text-wrap: wrap;
+}
+
+li :hover , button :hover{
+    background-color:antiquewhite;
+
+}
+
+footer{
+    margin-top: 45vh;
+    text-align: center;
+}
+
+/* create two vertical colored blocks one on each side */
